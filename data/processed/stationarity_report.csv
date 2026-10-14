@@ -1,0 +1,34 @@
+variable,n_obs,ADF_p_level,KPSS_p_level,stationary_level,ADF_p_log_diff,KPSS_p_log_diff,stationary_after_diff,recommended,ADF_p_diff,KPSS_p_diff
+all_commodity_index,359,0.4773,0.01,False,0.0,0.1,True,log_diff,,
+energy_index,359,0.1024,0.01,False,0.0,0.1,True,log_diff,,
+food_index,359,0.464,0.01,False,0.0,0.1,True,log_diff,,
+metals_index,359,0.5322,0.01,False,0.0,0.1,True,log_diff,,
+brent_oil,359,0.0999,0.01,False,0.0,0.1,True,log_diff,,
+wti_oil,359,0.0486,0.01,False,0.0,0.1,True,log_diff,,
+nat_gas_eu,359,0.0328,0.01,False,0.0,0.1,True,log_diff,,
+copper,359,0.8732,0.01,False,0.0,0.1,True,log_diff,,
+aluminum,359,0.1759,0.01,False,0.0,0.1,True,log_diff,,
+wheat,359,0.0677,0.01,False,0.0,0.1,True,log_diff,,
+maize,359,0.2102,0.01,False,0.0,0.1,True,log_diff,,
+sugar,359,0.1394,0.01,False,0.0,0.1,True,log_diff,,
+cotton,359,0.0223,0.01,False,0.0,0.1,True,log_diff,,
+us_cpi,360,0.9964,0.01,False,0.0067,0.1,True,log_diff,,
+us_ppi,360,0.9653,0.01,False,0.0,0.1,True,log_diff,,
+us_ind_production,360,0.0378,0.01,False,0.0,0.1,True,log_diff,,
+fed_funds_rate,360,0.0436,0.0139,False,,,True,diff,0.0003,0.1
+us_m2,360,0.9897,0.01,False,0.0,0.1,True,log_diff,,
+us_unemployment,360,0.029,0.0737,True,,,True,level (already stationary),0.0,0.1
+consumer_sentiment,360,0.6362,0.01,False,,,True,diff,0.0,0.1
+yield_spread_10y2y,360,0.0241,0.0476,False,,,True,diff,0.0004,0.1
+usd_inr,360,0.994,0.01,False,0.0,0.1,True,log_diff,,
+usd_cny,360,0.5348,0.01,False,0.0003,0.1,True,log_diff,,
+usd_per_eur,334,0.2315,0.0481,False,0.0,0.1,True,log_diff,,
+vix,360,0.0,0.093,True,,,True,level (already stationary),0.0,0.1
+wti_futures,315,0.0241,0.0235,False,0.0,0.1,True,log_diff,,
+brent_futures,232,0.0249,0.0913,True,0.0,0.1,True,level (already stationary),,
+gold_futures,315,0.991,0.01,False,0.0,0.1,True,log_diff,,
+copper_futures,315,0.8002,0.01,False,0.0,0.1,True,log_diff,,
+wheat_futures,316,0.0297,0.01,False,0.0,0.1,True,log_diff,,
+corn_futures,316,0.085,0.01,False,0.0,0.1,True,log_diff,,
+usd_index,360,0.3924,0.0366,False,0.0,0.1,True,log_diff,,
+sp500,360,1.0,0.01,False,0.0,0.1,True,log_diff,,

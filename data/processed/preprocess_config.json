@@ -1,0 +1,75 @@
+{
+  "target": "all_commodity_index",
+  "horizons": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "test_fraction": 0.25,
+  "gap_months": 12,
+  "winsor_quantiles": [
+    0.01,
+    0.99
+  ],
+  "max_first_valid": "2001-01-01",
+  "max_missing_share": 0.2,
+  "indicators": [
+    "brent_oil",
+    "wti_oil",
+    "nat_gas_eu",
+    "copper",
+    "aluminum",
+    "wheat",
+    "maize",
+    "sugar",
+    "cotton",
+    "us_cpi",
+    "us_ppi",
+    "us_ind_production",
+    "fed_funds_rate",
+    "us_m2",
+    "us_unemployment",
+    "consumer_sentiment",
+    "yield_spread_10y2y",
+    "usd_inr",
+    "usd_cny",
+    "usd_per_eur",
+    "vix",
+    "wti_futures",
+    "gold_futures",
+    "copper_futures",
+    "wheat_futures",
+    "corn_futures",
+    "usd_index",
+    "sp500"
+  ],
+  "train_period": [
+    "2000-09-01",
+    "2019-03-01"
+  ],
+  "test_period": [
+    "2020-04-01",
+    "2026-10-01"
+  ],
+  "publication_lags": {
+    "us_cpi": 1,
+    "us_ppi": 1,
+    "us_ind_production": 1,
+    "us_m2": 1,
+    "us_unemployment": 1,
+    "consumer_sentiment": 0,
+    "yield_spread_10y2y": 0,
+    "fed_funds_rate": 0,
+    "vix": 0,
+    "brent_oil": 1,
+    "wti_oil": 1,
+    "nat_gas_eu": 1,
+    "copper": 1,
+    "aluminum": 1,
+    "wheat": 1,
+    "maize": 1,
+    "sugar": 1,
+    "cotton": 1
+  }
+}

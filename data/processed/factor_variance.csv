@@ -1,0 +1,6 @@
+,SS_loadings,pct_variance,cum_pct,suggested_label,top_variables
+F1,3.287030776438395,11.739395630137125,11.739395630137125,Energy,"brent_oil, wti_oil, us_ppi, us_cpi"
+F2,2.6578291303201955,9.492246894000699,21.231642524137825,US dollar / currency,"usd_index, usd_per_eur, gold_futures, usd_inr"
+F3,2.101205288755148,7.504304602696957,28.73594712683478,Financial risk / sentiment,"vix, fed_funds_rate, sp500, us_ind_production"
+F4,1.5200265778872861,5.42866634959745,34.16461347643223,Agriculture,"maize, wheat, cotton, corn_futures"
+F5,1.1925362872562975,4.259058168772491,38.42367164520472,Monetary / inflation,"us_ppi, us_cpi, nat_gas_eu, aluminum"
